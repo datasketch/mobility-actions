@@ -1,0 +1,23 @@
+{
+  "name": "mobility-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Daza <03dazal@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.27",
+    "postcss-cli": "^7.1.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.6.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
