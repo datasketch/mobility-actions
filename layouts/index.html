@@ -1,3 +1,99 @@
 {{ define "main" }}
-  <h1 class="text-6xl text-center">Mobility Actions</h1>
+<div class="bg-center bg-no-repeat bg-cover px-4 text-white" style='background-image: url({{"images/home.webp" | absURL }})'>
+  <div class="pt-12 pb-6 text-center mx-auto md:w-2/3 xl:w-1/3">
+    <h1 class="text-5xl leading-tight font-bold md:text-headline">
+      <span class="block">Movilidad</span>
+      <span>y COVID-19</span>
+    </h1>
+    <h3 class="text-xl font-georgia italic mt-8">Las lecciones mundiales de movilidad en medio de la pandemia por COVID-19</h3>
+    <p class="my-12 font-georgia">COVID Mobility Works is an independent platform dedicated to collecting, synthesizing and sharing mobility initiatives that are keeping the world moving during the COVID-19 pandemic. The goal of this platform is to help policymakers, innovators, researchers and advocates rise to the challenge of creating more resilient, inclusive, and sustainable transportation systems for all.</p>
+    <div class="flex items-center justify-center">
+      <img class="w-32" src="{{ "images/numo.png" | absURL }}" alt="">
+      <img class="w-32" src="{{ "images/ds.svg" | absURL }}" alt="">
+    </div>
+  </div>
+</div>
+<div class="bg-skobeloff text-white pt-24 space-y-24">
+  <div class="flex flex-col lg:flex-row lg:items-start lg:justify-between">
+    <div class="px-4 md:px-16 lg:w-7/12 xl:w-1/3 xl:pr-0">
+      <h2 class="leading-none text-5xl xl:text-6xl">
+        <span class="block">Las acciones</span>
+        <span>de movilidad</span>
+      </h2>
+      <p class="font-georgia mt-8">son medidas tomadas por distintos sectores en relación con los medios de transporte y vías de circulación en el espacio público. Debido a la pandemia por COVID-19 en el mundo, la ciudadanía ha visto afectada su movilidad: no solo las personas se quedan en casa, sino que también desconfían del uso de sistemas de transporte público al poder ser focos de contagios.</p>
+    </div>
+    <img class="mt-10 lg:mt-0 lg:w-5/12 xl:w-1/2" src="{{ "images/img1.webp" | absURL }}" alt="">
+  </div>
+  <!---->
+  <div class="flex flex-col-reverse lg:flex-row lg:items-start lg:justify-between">
+    <img class="mt-10 lg:mt-0 lg:w-5/12 lg:pl-16 xl:w-2/5" src="{{ "images/img2.webp" | absURL }}" alt="">
+    <div class="px-4 md:px-16 lg:w-7/12 lg:text-right xl:w-1/3 xl:pl-0">
+      <h2 class="leading-none text-3xl xl:text-4xl">
+        Este sitio web publica las diversas acciones de movilidad que se proponen desde distintos sectores
+      </h2>
+      <p class="font-georgia mt-8">públicos, privados, de organizaciones de sociedad civil, entre otros, para trabajar y dar impulso a la movilidad en diversas partes del mundo.</p>
+    </div>
+  </div>
+</div>
+<div class="bg-cultured px-4 bg-contain bg-no-repeat bg-right-top py-20 text-charcoal lg:-mt-8" style="background-image: url({{ "images/corner-right.png" | absURL }});">
+  <h2 class="text-center text-5xl xl:text-6xl">Bases de datos</h2>
+  <div class="w-full mx-auto flex flex-col space-y-12 mt-12 md:space-y-0 md:flex-row md:w-5/6 md:justify-between lg:w-4/6">
+    <div class="font-georgia text-center md:w-1/3">
+      <img class="mx-auto w-32" src="{{ "images/number1.png" | absURL }}" alt="">
+      <p class="text-xl font-bold mt-6 leading-tight">
+        <span class="block">COVID</span>
+        <span>Mobility Works</span>
+      </p>
+      <p class="italic">Numo et al.</p>
+      <a class="border border-charcoal px-2 py-1 inline-block mt-6" href="#">Ver datos</a>
+    </div>
+    <div class="font-georgia text-center md:w-1/3">
+      <img class="mx-auto w-32" src="{{ "images/number2.png" | absURL }}" alt="">
+      <p class="text-xl font-bold mt-6 leading-tight">
+        <span class="block">Actions</span>
+        <span>Compilation</span>
+      </p>
+      <p class="italic">Tab Combs and Mike Lydon</p>
+      <a class="border border-charcoal px-2 py-1 inline-block mt-6" href="#">Ver datos</a>
+    </div>
+    <div class="font-georgia text-center md:w-1/3">
+      <img class="mx-auto w-32" src="{{ "images/number3.png" | absURL }}" alt="">
+      <p class="text-xl font-bold mt-6 leading-tight">
+        <span class="block">Transport in</span>
+        <span>COVID-19 and beyond</span>
+      </p>
+      <p class="italic">New Normal</p>
+      <a class="border border-charcoal px-2 py-1 inline-block mt-6" href="#">Ver datos</a>
+    </div>
+  </div>
+</div>
+<div class="bg-cultured px-4 bg-contain bg-no-repeat bg-left-top py-20 text-charcoal" style="background-image: url({{ "images/corner-left.png" | absURL }});">
+  <h2 class="text-center text-5xl xl:text-6xl">Descarga de datos</h2>
+  <div class="w-full mx-auto flex flex-col space-y-12 mt-12 md:space-y-0 md:flex-row md:w-5/6 md:justify-between lg:w-4/6">
+    <div class="font-georgia text-center md:w-1/3">
+      <p class="text-xl font-bold mt-6 leading-tight">
+        <span class="block">COVID</span>
+        <span>Mobility Works</span>
+      </p>
+      <p class="italic">Numo et al.</p>
+      <a class="border border-charcoal px-2 py-1 inline-block mt-6" href="#">Descargar</a>
+    </div>
+    <div class="font-georgia text-center md:w-1/3">
+      <p class="text-xl font-bold mt-6 leading-tight">
+        <span class="block">Actions</span>
+        <span>Compilation</span>
+      </p>
+      <p class="italic">Tab Combs and Mike Lydon</p>
+      <a class="border border-charcoal px-2 py-1 inline-block mt-6" href="#">Descargar</a>
+    </div>
+    <div class="font-georgia text-center md:w-1/3">
+      <p class="text-xl font-bold mt-6 leading-tight">
+        <span class="block">Transport in</span>
+        <span>COVID-19 and beyond</span>
+      </p>
+      <p class="italic">New Normal</p>
+      <a class="border border-charcoal px-2 py-1 inline-block mt-6" href="#">Descargar</a>
+    </div>
+  </div>
+</div>
 {{ end }}
