@@ -11,7 +11,8 @@
     <title>{{ .Site.Title }}</title>
   {{ end }}
 </head>
-<body>
+<body class="antialiased">
+  {{ partial "navbar.html" . }}
   {{ block "main" . }}{{ end }}
 </body>
 </html>
