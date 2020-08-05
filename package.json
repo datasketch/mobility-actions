@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "./build",
     "deploy": "gh-pages --dist public --message \"Build site\""
   },
   "author": "David Daza <03dazal@gmail.com>",
