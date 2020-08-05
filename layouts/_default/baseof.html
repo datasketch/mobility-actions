@@ -16,6 +16,8 @@
   {{ partial "navbar.html" . }}
   {{ block "main" . }}{{ end }}
   {{ $js := resources.Get "js/site.js" | minify }}
+  <script src="{{ "vendors/move-to/moveTo.min.js" | absURL }}"></script>
+  <script src="{{ "vendors/iframe-resizer/iframeResizer.min.js" | absURL }}"></script>
   <script src="{{ $js.Permalink }}"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="bg-center bg-no-repeat bg-cover px-4 text-white" style='background-image: url({{"images/home.webp" | absURL }})'>
+<div id="intro" class="bg-center bg-no-repeat bg-cover px-4 text-white" style='background-image: url({{"images/home.webp" | absURL }})'>
   <div class="pt-12 pb-6 text-center mx-auto md:w-2/3 xl:w-1/3">
     <h1 class="text-5xl leading-tight font-bold md:text-headline">
       <span class="block">Movilidad</span>
@@ -13,14 +13,14 @@
     </div>
   </div>
 </div>
-<div class="bg-skobeloff text-white pt-24 space-y-24">
+<div id="about" class="bg-skobeloff text-white pt-24 space-y-24">
   <div class="flex flex-col lg:flex-row lg:items-start lg:justify-between">
     <div class="px-4 md:px-16 lg:w-7/12 xl:w-1/3 xl:pr-0">
       <h2 class="leading-none text-5xl xl:text-6xl">
         <span class="block">Las acciones</span>
         <span>de movilidad</span>
       </h2>
-      <p class="font-georgia mt-8">son medidas tomadas por distintos sectores en relación con los medios de transporte y vías de circulación en el espacio público. Debido a la pandemia por COVID-19 en el mundo, la ciudadanía ha visto afectada su movilidad: no solo las personas se quedan en casa, sino que también desconfían del uso de sistemas de transporte público al poder ser focos de contagios.</p>
+      <p class="font-georgia mt-8">son medidas tomadas por distintos sectores en relación con los medios de transporte y vías de circulación en el espacio público. <strong>Debido a la pandemia por COVID-19 en el mundo, la ciudadanía ha visto afectada su movilidad</strong>: no solo las personas se quedan en casa, sino que también desconfían del uso de sistemas de transporte público al poder ser focos de contagios.</p>
     </div>
     <img class="mt-10 lg:mt-0 lg:w-5/12 xl:w-1/2" src="{{ "images/img1.webp" | absURL }}" alt="">
   </div>
@@ -35,7 +35,7 @@
     </div>
   </div>
 </div>
-<div class="bg-cultured px-4 bg-contain bg-no-repeat bg-right-top py-20 text-charcoal lg:-mt-8" style="background-image: url({{ "images/corner-right.png" | absURL }});">
+<div id="fuentes" class="bg-cultured px-4 bg-contain bg-no-repeat bg-right-top py-20 text-charcoal lg:-mt-8" style="background-image: url({{ "images/corner-right.png" | absURL }});">
   <h2 class="text-center text-5xl xl:text-6xl">Bases de datos</h2>
   <div class="w-full mx-auto flex flex-col space-y-12 mt-12 md:space-y-0 md:flex-row md:w-5/6 md:justify-between lg:w-4/6">
     <div class="font-georgia text-center md:w-1/3">
@@ -67,7 +67,7 @@
     </div>
   </div>
 </div>
-<div class="bg-honeydew px-4 md:px-16 py-12">
+<div id="visualizaciones" class="bg-honeydew px-4 md:px-16 py-12">
   <div class="flex items-center space-x-4">
     <img class="w-12" src="{{ "images/number1.png" | absURL }}" alt="">
     <div class="text-charcoal leading-none">
@@ -94,7 +94,11 @@
     </div>
   </div>
 </div>
-<div class="bg-cultured px-4 bg-contain bg-no-repeat bg-left-top py-20 text-charcoal" style="background-image: url({{ "images/corner-left.png" | absURL }});">
+<div id="explorador" class="bg-violet-web text-charcoal py-12">
+  <h2 class="text-center text-3xl xl:text-4xl">Explorador de datos</h2>
+  <iframe id="app" src="https://datasketch.shinyapps.io/mobility-actions-app/" frameborder="0" class="w-full border-none"></iframe>
+</div>
+<div id="descargas" class="bg-cultured px-4 bg-contain bg-no-repeat bg-left-top py-20 text-charcoal" style="background-image: url({{ "images/corner-left.png" | absURL }});">
   <h2 class="text-center text-5xl xl:text-6xl">Descarga de datos</h2>
   <div class="w-full mx-auto flex flex-col space-y-12 mt-12 md:space-y-0 md:flex-row md:w-5/6 md:justify-between lg:w-4/6">
     <div class="font-georgia text-center md:w-1/3">
