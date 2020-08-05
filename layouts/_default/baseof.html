@@ -15,5 +15,7 @@
 <body class="antialiased font-playfair-display">
   {{ partial "navbar.html" . }}
   {{ block "main" . }}{{ end }}
+  {{ $js := resources.Get "js/site.js" | minify }}
+  <script src="{{ $js.Permalink }}"></script>
 </body>
 </html>
