@@ -1,0 +1,4 @@
+baseURL = "https://datasketch.github.io/mobility-actions"
+languageCode = "es-es"
+title = "Mobility Actions"
+taxonomies = []

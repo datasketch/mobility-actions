@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages --dist public --message \"Build site\""
   },
   "author": "David Daza <03dazal@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9.8.6",
+    "gh-pages": "^3.1.0",
     "postcss": "^7.0.27",
     "postcss-cli": "^7.1.0"
   },
