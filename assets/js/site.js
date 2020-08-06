@@ -2,8 +2,9 @@ const trigger = document.getElementById('menu-trigger');
 const open = document.getElementById('menu-open');
 const close = document.getElementById('menu-close');
 const content = document.getElementById('menu-content');
-const moveTo = new MoveTo();
 const navTriggers = document.getElementsByClassName('js-trigger');
+
+const moveTo = new MoveTo();
 
 trigger.addEventListener('click', function () {
   open.classList.toggle('hidden');
