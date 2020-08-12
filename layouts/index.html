@@ -35,6 +35,10 @@
     </div>
   </div>
 </div>
+<div id="explorador" class="bg-violet-web text-charcoal py-12">
+  <h2 class="text-center text-3xl xl:text-4xl">Explorador de datos</h2>
+  <iframe id="app" src="https://datasketch.shinyapps.io/mobility-actions-app/" frameborder="0" class="w-full border-none"></iframe>
+</div>
 <div id="fuentes" class="bg-cultured px-4 bg-contain bg-no-repeat bg-right-top py-20 text-charcoal lg:-mt-8" style="background-image: url({{ "images/corner-right.png" | absURL }});">
   <h2 class="text-center text-5xl xl:text-6xl">Fuentes de datos</h2>
   <div class="w-full mx-auto flex flex-col space-y-12 mt-12 md:space-y-0 md:flex-row md:w-5/6 md:justify-between lg:w-4/6">
@@ -46,6 +50,7 @@
       </p>
       <p class="italic">Numo et al.</p>
       <a class="border border-charcoal px-2 py-1 inline-block mt-6" href="#">Ver datos</a>
+      <a class="border border-charcoal px-2 py-1 inline-block mt-6" href="#">Descargar datos</a>
     </div>
     <div class="font-georgia text-center md:w-1/3">
       <img class="mx-auto w-32" src="{{ "images/number2.png" | absURL }}" alt="">
@@ -55,6 +60,7 @@
       </p>
       <p class="italic">Tab Combs and Mike Lydon</p>
       <a class="border border-charcoal px-2 py-1 inline-block mt-6" href="#">Ver datos</a>
+      <a class="border border-charcoal px-2 py-1 inline-block mt-6" href="#">Descargar datos</a>
     </div>
     <div class="font-georgia text-center md:w-1/3">
       <img class="mx-auto w-32" src="{{ "images/number3.png" | absURL }}" alt="">
@@ -64,40 +70,18 @@
       </p>
       <p class="italic">New Normal</p>
       <a class="border border-charcoal px-2 py-1 inline-block mt-6" href="#">Ver datos</a>
+      <a class="border border-charcoal px-2 py-1 inline-block mt-6" href="#">Descargar datos</a>
     </div>
   </div>
 </div>
-<div id="explorador" class="bg-violet-web text-charcoal py-12">
-  <h2 class="text-center text-3xl xl:text-4xl">Explorador de datos</h2>
-  <iframe id="app" src="https://datasketch.shinyapps.io/mobility-actions-app/" frameborder="0" class="w-full border-none"></iframe>
-</div>
 <div id="descargas" class="bg-cultured px-4 bg-contain bg-no-repeat bg-left-top py-20 text-charcoal" style="background-image: url({{ "images/corner-left.png" | absURL }});">
   <h2 class="text-center text-5xl xl:text-6xl">Descarga de datos</h2>
-  <div class="w-full mx-auto flex flex-col space-y-12 mt-12 md:space-y-0 md:flex-row md:w-5/6 md:justify-between lg:w-4/6">
-    <div class="font-georgia text-center md:w-1/3">
-      <p class="text-xl font-bold mt-6 leading-tight">
-        <span class="block">COVID</span>
-        <span>Mobility Works</span>
-      </p>
-      <p class="italic">Numo et al.</p>
-      <a class="border border-charcoal px-2 py-1 inline-block mt-6" href="#">Descargar</a>
-    </div>
-    <div class="font-georgia text-center md:w-1/3">
-      <p class="text-xl font-bold mt-6 leading-tight">
-        <span class="block">Actions</span>
-        <span>Compilation</span>
-      </p>
-      <p class="italic">Tab Combs and Mike Lydon</p>
-      <a class="border border-charcoal px-2 py-1 inline-block mt-6" href="#">Descargar</a>
-    </div>
-    <div class="font-georgia text-center md:w-1/3">
-      <p class="text-xl font-bold mt-6 leading-tight">
-        <span class="block">Transport in</span>
-        <span>COVID-19 and beyond</span>
-      </p>
-      <p class="italic">New Normal</p>
-      <a class="border border-charcoal px-2 py-1 inline-block mt-6" href="#">Descargar</a>
-    </div>
+  <div class="w-full mx-auto mt-12 text-lg font-georgia md:w-5/6 lg:w-4/6">
+    <p><strong>DATA USE AND CC LICENSE: </strong>The dataset is available for non-commercial use only and may not be reproduced online without permission, but can be used for analysis while giving credit to its source. A creative commons attribution - sharealike license applies to this data. LINK CREATIVE COMMONS</p>
+    <p class="mt-6"><strong>ATTRIBUTION: </strong>Please use proper attribution when using or linking to data contained within this dataset. Suggested citation: PBIC, NUMO, Mobility Works, Streetplans, EpiAndes, Datasketch (2020). The "It wasn't so hard" Covid-19 mobility database. Available from XXXXLINKXXX.</p>
+    <p class="mt-6"><strong>CONTACT: </strong>For questions or comments about the data, please contact Tabitha Combs at XXX@unc.edu or XXXX@numo.global</p>
+    <p class="mt-8">For questions or comments about the visualization platform, please contact XXXDatasketchXXX or visit the platform's github page here</p>
+    <p class="mt-4">For questions or comments about any of the individual databases compiled here, please contact each of them directly.</p>
   </div>
 </div>
 {{ end }}
