@@ -18,4 +18,4 @@ for (const trigger of navTriggers) {
   moveTo.registerTrigger(trigger);
 }
 
-iFrameResize({ heightCalculationMethod: 'lowestElement' }, '#app');
+iFrameResize({ heightCalculationMethod: 'lowestElement', maxHeight: innerHeight }, '#app');
