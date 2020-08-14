@@ -3,11 +3,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'old-lace': '#f7efdf',
-        'violet-web': '#f8f9f9',
+        'soft-white': '#fcfcfc',
         charcoal: '#293845',
-        cultured: '#f8f8f8',
-        honeydew: '#daefe3',
         skobeloff: '#27625b',
       },
       fontFamily: {
@@ -15,7 +12,9 @@ module.exports = {
         'playfair-display': ['"Playfair Display"', 'sans-serif'],
       },
       fontSize: {
-        'headline': '4.6875rem'
+        'headline': '4.6875rem',
+        big: '2.5rem',
+        medium: '1.2rem'
       }
     },
   },
