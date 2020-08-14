@@ -5,7 +5,6 @@ module.exports = {
       colors: {
         'soft-white': '#fcfcfc',
         charcoal: '#293845',
-        skobeloff: '#27625b',
       },
       fontFamily: {
         georgia: ['Georgia', 'sans-serif'],
